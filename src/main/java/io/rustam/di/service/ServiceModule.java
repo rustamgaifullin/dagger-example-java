@@ -9,7 +9,7 @@ import javax.inject.Singleton;
 public class ServiceModule {
     @Provides
     @Singleton
-    public ServiceName serviceName() {
+    public Name serviceName() {
         return new ServiceName();
     }
 }

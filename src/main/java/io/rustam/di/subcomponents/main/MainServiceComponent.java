@@ -4,8 +4,8 @@ import dagger.Subcomponent;
 import io.rustam.MainApplication;
 import io.rustam.di.service.ServiceScope;
 
-@Subcomponent(modules = SubServiceModule.class)
+@Subcomponent(modules = MainServiceModule.class)
 @ServiceScope
-public interface SubServiceComponent {
+public interface MainServiceComponent {
     void inject(MainApplication mainApplication);
 }

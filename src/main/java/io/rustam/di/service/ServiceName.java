@@ -2,7 +2,7 @@ package io.rustam.di.service;
 
 import javax.inject.Inject;
 
-public class ServiceName {
+public class ServiceName implements Name {
     private final String name;
 
     @Inject
@@ -10,7 +10,8 @@ public class ServiceName {
         this.name = "Service name";
     }
 
-    public String getName() {
+    @Override
+    public String getStringName() {
         return name;
     }
 }
