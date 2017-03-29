@@ -1,10 +1,11 @@
-package io.rustam;
+package io.rustam.subcomponents;
 
-import io.rustam.di.service.DaggerServiceComponent;
-import io.rustam.di.subcomponents.special.SpecialModule;
-import io.rustam.di.subcomponents.special.SpecialService;
+import io.rustam.subcomponents.di.service.DaggerServiceComponent;
+import io.rustam.subcomponents.di.flow.special.SpecialModule;
+import io.rustam.subcomponents.di.flow.special.SpecialService;
 
 import javax.inject.Inject;
+
 
 public class SpecialApplication {
     @Inject

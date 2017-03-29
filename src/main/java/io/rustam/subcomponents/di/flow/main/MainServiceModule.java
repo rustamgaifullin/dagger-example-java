@@ -1,10 +1,10 @@
-package io.rustam.di.subcomponents.main;
+package io.rustam.subcomponents.di.flow.main;
 
 import dagger.Module;
 import dagger.Provides;
-import io.rustam.di.common.NetworkUtils;
-import io.rustam.di.service.Name;
-import io.rustam.di.service.ServiceScope;
+import io.rustam.subcomponents.di.common.NetworkUtils;
+import io.rustam.subcomponents.di.service.Name;
+import io.rustam.subcomponents.di.service.ServiceScope;
 
 @Module
 public class MainServiceModule {

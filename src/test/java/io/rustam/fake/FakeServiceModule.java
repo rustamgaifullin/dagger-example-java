@@ -1,7 +1,7 @@
 package io.rustam.fake;
 
-import io.rustam.di.service.Name;
-import io.rustam.di.service.ServiceModule;
+import io.rustam.subcomponents.di.service.Name;
+import io.rustam.subcomponents.di.service.ServiceModule;
 
 public class FakeServiceModule extends ServiceModule {
     @Override

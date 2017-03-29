@@ -1,4 +1,4 @@
-package io.rustam.di.common;
+package io.rustam.subcomponents.di.common;
 
 import javax.inject.Inject;
 

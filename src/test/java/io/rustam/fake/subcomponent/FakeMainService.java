@@ -1,9 +1,9 @@
 package io.rustam.fake.subcomponent;
 
-import io.rustam.di.common.NetworkUtils;
-import io.rustam.di.service.Name;
-import io.rustam.di.subcomponents.main.MainResponse;
-import io.rustam.di.subcomponents.main.MainService;
+import io.rustam.subcomponents.di.common.NetworkUtils;
+import io.rustam.subcomponents.di.service.Name;
+import io.rustam.subcomponents.di.flow.main.MainResponse;
+import io.rustam.subcomponents.di.flow.main.MainService;
 
 public class FakeMainService extends MainService {
     private final NetworkUtils networkUtils;

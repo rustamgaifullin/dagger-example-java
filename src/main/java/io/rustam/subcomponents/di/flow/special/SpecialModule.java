@@ -1,8 +1,8 @@
-package io.rustam.di.subcomponents.special;
+package io.rustam.subcomponents.di.flow.special;
 
 import dagger.Module;
 import dagger.Provides;
-import io.rustam.di.service.ServiceScope;
+import io.rustam.subcomponents.di.service.ServiceScope;
 
 @Module
 public class SpecialModule {

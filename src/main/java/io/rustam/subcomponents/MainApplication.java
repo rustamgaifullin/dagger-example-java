@@ -1,9 +1,9 @@
-package io.rustam;
+package io.rustam.subcomponents;
 
-import io.rustam.di.service.DaggerServiceComponent;
-import io.rustam.di.service.ServiceName;
-import io.rustam.di.subcomponents.main.MainService;
-import io.rustam.di.subcomponents.main.MainServiceModule;
+import io.rustam.subcomponents.di.service.DaggerServiceComponent;
+import io.rustam.subcomponents.di.service.ServiceName;
+import io.rustam.subcomponents.di.flow.main.MainService;
+import io.rustam.subcomponents.di.flow.main.MainServiceModule;
 
 import javax.inject.Inject;
 

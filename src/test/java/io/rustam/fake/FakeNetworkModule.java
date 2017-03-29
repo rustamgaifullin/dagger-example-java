@@ -1,8 +1,8 @@
 package io.rustam.fake;
 
-import io.rustam.di.common.NetworkModule;
-import io.rustam.di.common.NetworkUtils;
-import io.rustam.di.common.Url;
+import io.rustam.subcomponents.di.common.NetworkModule;
+import io.rustam.subcomponents.di.common.NetworkUtils;
+import io.rustam.subcomponents.di.common.Url;
 
 public class FakeNetworkModule extends NetworkModule {
     @Override

@@ -1,8 +1,8 @@
 package io.rustam;
 
-import io.rustam.di.service.Name;
-import io.rustam.di.subcomponents.main.MainService;
 import io.rustam.fake.DaggerFakeServiceComponent;
+import io.rustam.subcomponents.di.service.Name;
+import io.rustam.subcomponents.di.flow.main.MainService;
 import io.rustam.fake.FakeNetworkModule;
 import io.rustam.fake.FakeServiceModule;
 import io.rustam.fake.subcomponent.FakeMainServiceModule;

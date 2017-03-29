@@ -1,4 +1,4 @@
-package io.rustam.di.subcomponents.special;
+package io.rustam.subcomponents.di.flow.special;
 
 import javax.inject.Inject;
 

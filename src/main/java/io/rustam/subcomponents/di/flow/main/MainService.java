@@ -1,7 +1,7 @@
-package io.rustam.di.subcomponents.main;
+package io.rustam.subcomponents.di.flow.main;
 
-import io.rustam.di.common.NetworkUtils;
-import io.rustam.di.service.Name;
+import io.rustam.subcomponents.di.common.NetworkUtils;
+import io.rustam.subcomponents.di.service.Name;
 
 import javax.inject.Inject;
 

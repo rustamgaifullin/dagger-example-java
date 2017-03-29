@@ -1,9 +1,9 @@
 package io.rustam.fake;
 
 import dagger.Component;
-import io.rustam.di.common.NetworkModule;
-import io.rustam.di.service.ServiceModule;
-import io.rustam.di.subcomponents.main.MainServiceModule;
+import io.rustam.subcomponents.di.common.NetworkModule;
+import io.rustam.subcomponents.di.service.ServiceModule;
+import io.rustam.subcomponents.di.flow.main.MainServiceModule;
 import io.rustam.fake.subcomponent.FakeMainServiceComponent;
 
 import javax.inject.Singleton;

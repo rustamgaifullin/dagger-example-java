@@ -1,4 +1,4 @@
-package io.rustam.di.service;
+package io.rustam.subcomponents.di.service;
 
 import javax.inject.Scope;
 import java.lang.annotation.Documented;
